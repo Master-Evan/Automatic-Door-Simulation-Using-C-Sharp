@@ -128,7 +128,10 @@ namespace Door_sensor
            
 
         
-
+//this function is for closing the door the moment the cursor 
+//leaves the line beneath the door 
+//I'll add Thread.Sleep so the door wait a 200 ms and close 
+//Edited By Nour Addin Khalil 
         private void panel1_MouseLeave(object sender, EventArgs e)
         {
             close_door();
